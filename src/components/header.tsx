@@ -18,6 +18,10 @@ export const Header = () => {
     }
   }, [isDesktop, isMobileNavOpen]);
 
+  const handleClick = () => {
+    setIsMobileNavOpen((curr) => !curr);
+  }
+
   return (
     <>
       <header className="relative z-40 px-6 py-4 border-b border-gray-200/60">
@@ -77,6 +81,7 @@ export const Header = () => {
                   key={index}
                   href={item.href}
                   className="text-slate-900 uppercase tracking-widest font-bold text-xl h-10"
+                  onClick={handleClick}
                 >
                   {item.label}
                 </Link>
