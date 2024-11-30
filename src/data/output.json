@@ -1,0 +1,112 @@
+{
+  "prelim": {
+    "assignments": [
+      {
+        "title": "Assignment 1: My Known Communication Skills",
+        "image": "/prelims/Assignment 1.png"
+      },
+      {
+        "title": "Assignment 2: Basic Information Technology Tools that Support Communication",
+        "image": "/prelims/Assignment 2.png"
+      },
+      {
+        "title": "Assignment 3: Technology and Messages",
+        "image": "/prelims/Assignment 3.png"
+      }
+    ],
+    "performanceTasks": [
+      {
+        "title": "Performance Task #1: This is Me",
+        "image": "/prelims/Performance Task 1.png"
+      },
+      {
+        "title": "Performance Task #2: Sales Pitch",
+        "image": "/prelims/Performance Task 2.png"
+      }
+    ],
+    "quizzes": [
+      {
+        "title": "Prelim Quiz #1",
+        "image": "/prelims/Prelim Quiz 1.png"
+      },
+      {
+        "title": "Prelim Quiz #2",
+        "image": "/prelims/Prelim Quiz 2.png"
+      }
+    ],
+    "studentTakeaways": [
+      {
+        "title": "Student Takeaways #1",
+        "image": "/prelims/Student Takeaways 1.png"
+      },
+      {
+        "title": "Student Takeaways #2",
+        "image": "/prelims/Student Takeaways 2.png"
+      },
+      {
+        "title": "Student Takeaways #3",
+        "image": "/prelims/Student Takeaways 3.png"
+      },
+      {
+        "title": "Student Takeaways #4",
+        "image": "/prelims/Student Takeaways 4.png"
+      }
+    ],
+    "project": {
+      "title": "Prelim Project",
+      "image": "/prelims/Prelim Project.png"
+    },
+    "exam": {
+      "title": "Preliminary Examination",
+      "image": "/prelims/Prelim Examination.png"
+    }
+  },
+  "midterm": {
+    "performanceTasks": [
+      {
+        "title": "Performance Task #4: Good and Bad",
+        "image": "/midterms/Performance Task 4.png"
+      },
+      {
+        "title": "Performance Task #5: How to Manage a Difficult Audience",
+        "image": "/midterms/Performance Task 5.png"
+      }
+    ],
+    "quizzes": [
+      {
+        "title": "Midterms Quiz #1",
+        "image": "/midterms/Midterms Quiz 1.png"
+      },
+      {
+        "title": "Midterms Quiz #2",
+        "image": "/midterms/Midterms Quiz 2.png"
+      }
+    ],
+    "project": {
+      "title": "Midterm Project",
+      "image": "/midterms/Midterm Project.png"
+    },
+    "exam": {
+      "title": "Midterm Examination",
+      "image": "/midterms/Midterm Examination.png"
+    }
+  },
+  "finals": {
+    "performanceTasks": [
+      {
+        "title": "Performance Task #7: ",
+        "image": "/finals/Performance Task 7.png"
+      },
+      {
+        "title": "Performance Task #8: ",
+        "image": "/finals/Performance Task 8.png"
+      }
+    ],
+    "quizzes": [
+      {
+        "title": "Finals Quiz #2",
+        "image": "/finals/Finals Quiz 2.png"
+      }
+    ]
+  }
+}
