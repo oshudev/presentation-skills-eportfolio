@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${manrope.className} antialiased`}>
         <Header />
-        {children}
+        <main className="px-6 py-4">
+          <div className="container mx-auto">{children}</div>
+        </main>
         <Footer />
       </body>
     </html>
