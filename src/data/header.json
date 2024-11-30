@@ -1,0 +1,24 @@
+{
+  "header": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Prelims",
+      "href": "/prelims"
+    },
+    {
+      "label": "Midterms",
+      "href": "/midterms"
+    },
+    {
+      "label": "Finals",
+      "href": "/finals"
+    },
+    {
+      "label": "Reflection",
+      "href": "/reflection"
+    }
+  ]
+}
