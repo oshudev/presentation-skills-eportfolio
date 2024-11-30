@@ -20,7 +20,7 @@ export const Header = () => {
 
   const handleClick = () => {
     setIsMobileNavOpen((curr) => !curr);
-  }
+  };
 
   return (
     <>

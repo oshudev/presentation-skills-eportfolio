@@ -22,13 +22,16 @@ export default function Home() {
             className="min-w-full"
           ></Image>
         </div>
-        <div className="flex flex-col gap-3 py-4 sm:absolute sm:top-1/2 sm:left-0 sm:-translate-y-1/2 sm:text-white sm:p-9">
+        <div className="flex flex-col gap-3 py-4 md:absolute sm:top-1/2 md:left-0 md:-translate-y-1/2 md:text-white md:p-9">
           <h1
-            className={`${spaceMono.className} text-7xl tracking-tight leading-tight uppercase text-wrap sm:text-8xl sm:leading-snug`}
+            className={`${spaceMono.className} text-6xl !text-wrap tracking-tight leading-tight uppercase sm:!leading-snug md:text-8xl`}
           >
             Kumusta! <br /> I&apos;m&nbsp;
-            <span className="px-5 bg-[#FA5D29]/75 sm:bg-[#FA5D29]/80">Joshua</span>
+            <span className="inline-block px-5 bg-[#FA5D29]/75 sm:bg-[#FA5D29]/80 w-fit">
+              Joshua
+            </span>
           </h1>
+
           <p className="tracking-wide text-lg">
             This is my portfolio for finals. I code this website myself.
           </p>
