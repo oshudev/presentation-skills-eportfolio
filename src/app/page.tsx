@@ -54,8 +54,8 @@ export default function Home() {
             I&apos;m passionate about developing my career here at JRU and am always
             looking for new opportunities to grow and develop my skills. In my free time,
             I enjoy playing mobile games, learning new things, and looking for UI design
-            trends. I&apos;m an outgoing and friendly person who loves to have fun and make
-            the most out of every day.
+            trends. I&apos;m an outgoing and friendly person who loves to have fun and
+            make the most out of every day.
           </p>
         </section>
         <section className="my-8">
