@@ -1,17 +1,19 @@
-"use client"
+'use client';
 
 import Image from 'next/image';
 
 import { spaceMono } from './fonts';
 import Link from 'next/link';
 
-import { useMediaQuery } from '@/hooks/use-media-query';
+import { Gallery, GalleryGroup, GalleryImage, GalleryTitle } from '@/components/gallery';
+
+import outputData from '@/data/output.json';
 
 export default function Home() {
   return (
     <main className="px-6 py-4">
       <div className="container mx-auto">
-        <section className="relative">
+        <section className="relative my-8">
           <div className="rounded-lg overflow-hidden">
             <Image
               width={1218}
@@ -25,9 +27,10 @@ export default function Home() {
             <h1
               className={`${spaceMono.className} text-7xl tracking-tight leading-tight uppercase text-wrap sm:text-8xl sm:leading-snug`}
             >
-              Kumusta <br /> I'm <span className="px-5 bg-[#FA5D29]/75 sm:bg-[#FA5D29]/80">Joshua</span>
+              Kumusta! <br /> I&apos;m&nbsp;
+              <span className="px-5 bg-[#FA5D29]/75 sm:bg-[#FA5D29]/80">Joshua</span>
             </h1>
-            <p className="font-medium tracking-wide text-lg">
+            <p className="tracking-wide text-lg">
               This is my portfolio for finals. I code this website myself.
             </p>
             <Link
@@ -37,6 +40,50 @@ export default function Home() {
               View Source Code
             </Link>
           </div>
+        </section>
+        <section className="my-32 flex flex-col max-w-2xl mx-auto gap-8">
+          <h2>About Me</h2>
+          <p>
+            My name is Joshua Ythiel Arriesgado, and I&apos;m 20 years old. I currently
+            live at Correctional Road, Mandaluyong City. I&apos;m a hardworking and
+            dedicated individual who is always looking for new and innovative ways to get
+            things done. I&apos;m a great team player, and I&aposm always willing to help
+            out wherever I can.
+          </p>
+          <p>
+            I&apos;m passionate about developing my career here at JRU and am always
+            looking for new opportunities to grow and develop my skills. In my free time,
+            I enjoy playing mobile games, learning new things, and looking for UI design
+            trends. I&apos;m an outgoing and friendly person who loves to have fun and make
+            the most out of every day.
+          </p>
+        </section>
+        <section className="my-8">
+          <h2 className="mb-4">Latest Activities</h2>
+          <Gallery>
+            {outputData.finals.performanceTasks.map((item, index) => (
+              <GalleryGroup key={index}>
+                <GalleryImage
+                  width={375}
+                  height={812}
+                  src={item.image}
+                  alt={item.title}
+                />
+                <GalleryTitle>{item.title}</GalleryTitle>
+              </GalleryGroup>
+            ))}
+            {outputData.finals.quizzes.map((item, index) => (
+              <GalleryGroup key={index}>
+                <GalleryImage
+                  width={375}
+                  height={812}
+                  src={item.image}
+                  alt={item.title}
+                />
+                <GalleryTitle>{item.title}</GalleryTitle>
+              </GalleryGroup>
+            ))}
+          </Gallery>
         </section>
       </div>
     </main>

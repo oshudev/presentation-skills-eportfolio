@@ -6,7 +6,7 @@ import { manrope } from './fonts';
 import { Header } from '@/components/header';
 
 export const metadata: Metadata = {
-  title: 'Joshua\'s Portfolio',
+  title: "Joshua's Portfolio",
   description: 'EPortfolio for ITC C309',
 };
 
