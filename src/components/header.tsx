@@ -9,7 +9,7 @@ import headerData from '@/data/header.json';
 import { useMediaQuery } from '@/hooks/use-media-query';
 
 export const Header = () => {
-  const [isMobileNavOpen, setIsMobileNavOpen] = useState(true);
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const isDesktop = useMediaQuery('(min-width: 1024px)');
 
   useEffect(() => {
