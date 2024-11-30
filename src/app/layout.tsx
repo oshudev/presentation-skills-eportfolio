@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { Manrope } from 'next/font/google';
-import { Header } from '@/components/header';
-import './globals.css';
 
-const manrope = Manrope({ subsets: ['latin'] });
+import './globals.css';
+import { manrope } from './fonts';
+
+import { Header } from '@/components/header';
 
 export const metadata: Metadata = {
-  title: 'Joshua Ythiel Arriesgado',
+  title: 'Joshua\'s Portfolio',
   description: 'EPortfolio for ITC C309',
 };
 
