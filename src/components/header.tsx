@@ -18,6 +18,19 @@ export const Header = () => {
     }
   }, [isDesktop, isMobileNavOpen]);
 
+    useEffect(() => {
+    if (isMobileNavOpen) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // Cleanup to avoid side effects
+    return () => {
+      document.body.classList.remove('overflow-hidden');
+    };
+  }, [isMobileNavOpen]);
+
   const handleClick = () => {
     setIsMobileNavOpen((curr) => !curr);
   };
