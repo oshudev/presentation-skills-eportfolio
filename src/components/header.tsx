@@ -18,7 +18,7 @@ export const Header = () => {
     }
   }, [isDesktop, isMobileNavOpen]);
 
-    useEffect(() => {
+  useEffect(() => {
     if (isMobileNavOpen) {
       document.body.classList.add('overflow-hidden');
     } else {
